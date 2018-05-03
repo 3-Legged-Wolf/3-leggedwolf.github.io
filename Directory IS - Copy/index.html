@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> <!-- This is basically what character set will be used to program the website, for example how we use the English alphabet and unicode in this website-->
+<title>Index</title>
+
+<style>
+.header
+{
+	padding:10px;
+}
+
+/*Paragraph/writing CSS*/
+.p 
+{
+	color:#FF7600;
+	font-size:110%;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+.font
+{
+	color: #F000FF;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.h1
+{
+	color:#F000FF;
+	font-size:400%;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.h2
+{
+	color:#F000FF;
+	font-size:200%;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "#F000FF", "sans-serif";
+	position: relative;
+	float: initial;
+}
+	
+	
+.section
+	
+{
+	width: 1350px;
+	float: left;
+	padding: 10px;
+	color:#FF4F00;
+	font-size:170%;
+	background-color: black;
+}
+
+.body
+{
+	background-color:#000000;
+}
+
+	.footer
+{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: black;
+		color: white;
+		text-align: center;
+		outline-style: solid;
+		outline-color: #F000FF;
+}
+
+	/*Navigation bar experiment (It worked, keeping it)*/
+	
+	.topnav {
+		background-color: black;
+		overflow: hidden;
+	}
+	
+	.topnav a {
+		float: left;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		outline-style: dotted;
+		outline-color: aqua;
+	}
+	
+	.topnav a:hover {
+		background-color: #333;
+		outline-style: solid;
+		outline-color: aqua;
+	}
+		
+	.topnav a.active{
+		background-color: #000000;
+		color: whitesmoke;
+		outline-style: solid;
+		outline-color: aqua;
+		}
+
+	/*Image layout*/
+	
+	.image {
+		display:block;
+		width: 500px;
+		height: 500px;
+		height:auto;
+	}
+	
+	.overlay{
+		position: absolute;
+		bottom: 0;
+		left: 100%;
+		right: 0;
+		background-color: aqua;
+		overflow: hidden;
+		width: 0;
+		height: 100%;
+		transition: .5s ease;
+	}
+	
+	.container:hover .overlay{
+		width: 500px;
+		left: 1412px;
+		height: 500px;
+		transform: translate(0%,-26%);
+	}
+
+	.text {
+		white-space: nowrap;
+		color: black;
+		font-size: 50px;
+		position: absolute;
+		overflow: hidden;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+	}
+	
+</style>
+</head>
+ 
+<header><img src="Images/Banner.jpg" width="1900" height="280" alt="Banner"/></header> <!-- Here is the banner!-->
+
+<body>
+
+<!--Background Colour-->
+<body bgcolor="#000000">
+<div></div> <!--This line moves the NAVIGATION BAR DOWN-->
+
+<ul></ul>
+<div class="topnav">
+<a class="active" href="index.html">Who am I?</a>
+<a href="advantages.html">Advantages</a>
+<a href="disadvantages.html">Disadvantages</a>
+<a href="recommend.html">Recommendations</a>
+<a href="contactUs.html">References/Citations</a>
+<br>
+</div>
+
+<!--This is the code that is written for the image and image text to display-->
+<div class="container">
+	<img src="Images/indexImage.jpg" alt="Page Image" class="image" align="right"/>
+	<div class="overlay">
+		<div class="text">My online avatar</div>
+	</div>
+</div>
+
+<div id="section"> <!-- This defines the section of the website that is dedicated to the text content at the right-->
+
+	<!-- Heading for the main body-->
+	<div class="h2">
+	<h2>
+	<font color="#FF00E4">
+	Who am I?
+	</font>
+	</h2>
+	</div> 
+	
+	<p>
+	<font color="FF00E4">
+	A good question. I am a student at Northumbria university looking into various forms of IT and where IT is applied to get my degree in a chosen subject which will likely be determined within this academic year. As of yet, I am most likely going into cyber security, games development, artifical intelligence or software programming as I enjoy learning about these sections the most.
+	<br>
+	<br>
+	During the course of our assessments I have also discovered that web design, among other subjects, is something I have an interest in and a potential growing passion, which to me is rather unexpected and surprising. In fact, at home as I write this I'm considering whether or not it would be worth making a portfolio  in the form a .html document for future reference if I ever do get into web design and development. Failing that, it would still look very good on my resume.
+	<br>
+	<br>
+	My name is Jordon Magee (w17023193). As you can see as evidence that this website is original I have my name, and student number, both posted at the footer of this website. I was born and raised in Newcastle and have no personal destination in the case of where I want to live, but I would like to have the most impact I possibly can with the skills that I have acquired over many sleepless nights studying and researching I.T and computer science, such as website design, games design and development and countless other vital and valuable computer skills.
+	</font>
+	</p>
+	
+	<div class="footer">
+		<p>Website created by Jordon Magee, student of Northumbria University (w17023193)</p>
+	</div>
+	
+</div>
+ 
+</body>
+</body>
+</html>
