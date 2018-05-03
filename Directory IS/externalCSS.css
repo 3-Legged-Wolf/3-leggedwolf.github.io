@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header
+{
+	padding:10px;
+}
+
+#navigation
+{
+	color: darkorchid;
+	font-size: 200%;
+	line-height: 50px;
+	padding: 10px;
+}
+
+#section
+{
+	width: 1350px;
+	float: right;
+	padding: 10px;
+	color:#FFBE00;
+	font-size:170%;
+}
+
+#body
+{
+	background-color:#000000;
+}
+
+#h1
+{
+	color:#FF7E00;
+	font-size:400%;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+#h2
+{
+	color:aliceblue;
+	font-size:200%;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+/*Paragraph CSS*/
+#p 
+{
+	color:#FFBE00;
+	font-size:110%;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+#font
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}

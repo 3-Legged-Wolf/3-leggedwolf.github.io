@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> <!-- This is basically what character set will be used to program the website, for example how we use the English alphabet and unicode in this website-->
+<title>References</title>
+
+<style>
+.header
+{
+	padding:10px;
+}
+
+/*Paragraph/writing CSS*/
+.p 
+{
+	color:#FF7600;
+	font-size:110%;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+.font
+{
+	color: #F000FF;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.h1
+{
+	color:#F000FF;
+	font-size:400%;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.h2
+{
+	color:#F000FF;
+	font-size:200%;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "#F000FF", "sans-serif";
+	position: relative;
+	float: initial;
+}
+	
+	
+.section
+	
+{
+	width: 1350px;
+	float: left;
+	padding: 10px;
+	color:#FF4F00;
+	font-size:170%;
+	background-color: black;
+}
+
+.body
+{
+	background-color:#000000;
+}
+
+	.footer
+{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: black;
+		color: white;
+		text-align: center;
+		outline-style: solid;
+		outline-color: #F000FF;
+}
+
+	/*Navigation bar experiment (It worked, keeping it)*/
+	
+	.topnav {
+		background-color: black;
+		overflow: hidden;
+	}
+	
+	.topnav a {
+		float: left;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		outline-style: dotted;
+		outline-color: aqua;
+	}
+	
+	.topnav a:hover {
+		background-color: #333;
+		outline-style: solid;
+		outline-color: aqua;
+	}
+		
+	.topnav a.active{
+		background-color: #000000;
+		color: whitesmoke;
+		outline-style: solid;
+		outline-color: aqua;
+		}
+
+	/*Image layout*/
+	
+	.image {
+		display:block;
+		width: 500px;
+		height: 500px;
+		height:auto;
+	}
+	
+	.overlay{
+		position: absolute;
+		bottom: 0;
+		left: 100%;
+		right: 0;
+		background-color: aqua;
+		overflow: hidden;
+		width: 0;
+		height: 100%;
+		transition: .5s ease;
+	}
+	
+	.container:hover .overlay{
+		width: 500px;
+		left: 1412px;
+		height: 500px;
+		transform: translate(0%,-26%);
+	}
+
+	.text {
+		white-space: nowrap;
+		color: black;
+		font-size: 50px;
+		position: absolute;
+		overflow: hidden;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+	}
+	
+</style>
+</head>
+ 
+<header><img src="Images/citBANNER.jpg" width="1900" height="280" alt="Banner"/></header> <!-- Here is the banner!-->
+
+<body>
+
+<!--Background Colour-->
+<body bgcolor="#000000">
+<div></div> <!--This line moves the NAVIGATION BAR DOWN-->
+
+<ul></ul>
+<div class="topnav">
+<a class="active" href="index.html">Who am I?</a>
+<a href="advantages.html">Advantages</a>
+<a href="disadvantages.html">Disadvantages</a>
+<a href="recommend.html">Recommendations</a>
+<a href="contactUs.html">References/Citations</a>
+<br>
+</div>
+
+<!--This is the code that is written for the image and image text to display-->
+<div class="container">
+	<img src="Images/citImage.jpg" alt="Page Image" class="image" align="right"/>
+	<div class="overlay">
+		<div class="text">Where I Study</div>
+	</div>
+</div>
+
+<div id="section"> <!-- This defines the section of the website that is dedicated to the text content at the right-->
+
+	<!-- Heading for the main body-->
+	<div class="h2">
+	<h2>
+	<font color="#FF00E4">
+	References/Citations
+	</font>
+	</h2>
+	</div> 
+	
+	<p>
+	<font color="FF00E4">
+	If you have any questions, considerations, suggestions or critisism of what I have created in this website and the information produces, please feel free to contact me on the following means:  
+	<br>
+	<br>
+		<ul>
+		<li>w17023193@northumbria.ac.uk</li>
+		<li>realrivalemail@gmail.com</li>
+		</ul>
+		
+	<br>
+	References located below:
+	<br>
+		<ul>
+			<li>Advantages Page</li>
+			<li>[1]<i>Moore's Law</i> (2018) Available at: https://www.investopedia.com/terms/m/mooreslaw.asp (Accessed: 2nd May 2018)</li>
+			<li>[2]Graham, A. (2018) <i>The rise of cyber crime</i> Available at: https://www.itgovernance.co.uk/blog/the-rise-of-cyber-crime/ (Accessed: 2nd May 2018)</li>
+		<ul>
+	<br>	
+		<ul>
+			<li>Disadvantages Page</li>
+			<li>[1]Perlroth, N. (2017) <i>All 3 Billion Yahoo Accounts Were Affected by 2013 Attack</i> Available at: https://www.nytimes.com/2017/10/03/technology/yahoo-hack-3-billion-users.html (Accessed 2nd May 2018)</li>
+			<li>[2]<i>FAU researchers investigate user behaviour when unknown messages are recieved online</i> (2016) available at: https://www.fau.eu/2016/08/25/news/research/one-in-two-users-click-on-links-from-unknown-senders/ (Accessed: 2nd May 2018)</li>
+			<li>[3] Ponemon, L. (2017) <i>The 2017 State of Endpoint Security Risk Report</i> Available at: https://blog.barkly.com/2018-cybersecurity-statistics (Accessed: 2nd May 2018)</li>
+			<li>[4]<i>Hackers Attack Every 39 Seconds</i> (2017) Available at: https://www.securitymagazine.com/articles/87787-hackers-attack-every-39-seconds (Accessed: 2nd May 2018)</li>
+		</ul>
+	<br>
+	Image references located below:
+	<br>
+		<ul>
+			<li><i>'Who am I?'</i> is my own commissioned online avatar.</li>
+			<li><i>'Advantages'</i>Nvidia (2016) <i>Intel CPU clock speed</i> Available at: https://www.eetimes.com/messages.asp?piddl_msgthreadid=42753&piddl_msgid=265521 (Accessed 2nd May 2018)</li>
+			<li><i>'Disadvantages'</i> <i>The Power of Code</i> (2017) available at: http://www.designandinternet.co.uk/the-power-of-code/ (Acessed: 2nd May 2018)</li>
+			<li><i>'Recommendations'</i> <i>Bullguard Internet Security</i>(2018) Available at: https://computerbuilders.co.uk/bullguard-internet-security (Accessed: 2nd May 2018) </li>
+			<li><i>'Citations/References'</i> <i>Northumbria University Logo</i>(2018) Available at: https://www.northumbria.ac.uk/about-us/our-new-identity/ (Accessed: 2nd May 2018)</li>
+		</ul>
+		<br>
+		<br>
+		<br>
+	
+	</font>
+	</p>
+	
+	<div class="footer">
+		<p>Website created by Jordon Magee, student of Northumbria University (w17023193)</p>
+	</div>
+	
+</div>
+ 
+</body>
+</body>
+</html>
